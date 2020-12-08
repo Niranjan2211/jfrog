@@ -10,6 +10,7 @@ docker run --name artifactory -d -p 8081:8081 -p 8082:8082 -p 8084:8084 \
   -e EXTRA_JAVA_OPTIONS='-Xmx4g -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC' \
   docker.bintray.io/jfrog/artifactory-oss:latest
   ```
+```
 ==========================================================================================
 Jfrog api-key - AKCp8hz3VmBKQkdSAtcjWKKPVCJaN4rXpusWxCLwKRgGRzxr7LLNjfxY3KnCdUMpBxTEUSY3X
 ==========================================================================================
@@ -39,3 +40,4 @@ curl -u admin:AKCp8hz3VmBKQkdSAtcjWKKPVCJaN4rXpusWxCLwKRgGRzxr7LLNjfxY3KnCdUMpBx
 Download from JFrog Artifactory Through credentials
 curl -u admin:password123 http://192.168.9.5:8081/artifactory/libs-release/cloudendure.log -o /tmp/cloudendure.log
 #########################################################################################
+```
